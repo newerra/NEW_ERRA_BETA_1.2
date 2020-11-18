@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>586</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>82</y>
+      <width>281</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_6">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="Kolvo_kaloriy">
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QSpinBox" name="Age">
+           <property name="maximum">
+            <number>200</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="ves">
+           <property name="maximum">
+            <number>200</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="rost">
+           <property name="maximum">
+            <number>400</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="floor_pol">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::DefaultContextMenu</enum>
+           </property>
+           <property name="acceptDrops">
+            <bool>false</bool>
+           </property>
+           <property name="whatsThis">
+            <string/>
+           </property>
+           <property name="accessibleName">
+            <string/>
+           </property>
+           <property name="editable">
+            <bool>true</bool>
+           </property>
+           <property name="currentText">
+            <string/>
+           </property>
+           <property name="duplicatesEnabled">
+            <bool>false</bool>
+           </property>
+           <property name="frame">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="vid_sporta">
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>Бег / Ходьба</string>
+         </property>
+         <property name="autoDefault">
+          <bool>true</bool>
+         </property>
+         <property name="default">
+          <bool>false</bool>
+         </property>
+         <property name="flat">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="vid_sporta_2">
+         <property name="text">
+          <string>Велосипед</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="vid_sporta_3">
+         <property name="text">
+          <string>Подъём тяжестей</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="vid_sporta_4">
+         <property name="text">
+          <string>Прыжки через скакалку</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="vid_sporta_5">
+         <property name="text">
+          <string>Плавание </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>240</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Вычислить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>Сброс</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>92</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Калории</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>   Возраст</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>209</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>    Пол</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>157</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>       Вес</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>116</x>
+      <y>183</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>     Рост</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>586</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+   </widget>
+   <addaction name="menuhelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
