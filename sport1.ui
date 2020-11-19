@@ -36,23 +36,18 @@
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_7">
          <item>
-          <widget class="QSpinBox" name="Age">
-           <property name="maximum">
-            <number>200</number>
-           </property>
-          </widget>
+          <widget class="QSpinBox" name="Age"/>
          </item>
          <item>
-          <widget class="QSpinBox" name="ves">
-           <property name="maximum">
-            <number>200</number>
-           </property>
-          </widget>
+          <widget class="QSpinBox" name="ves"/>
          </item>
          <item>
           <widget class="QSpinBox" name="rost">
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
            <property name="maximum">
-            <number>400</number>
+            <number>250</number>
            </property>
           </widget>
          </item>
@@ -116,13 +111,6 @@
         <widget class="QPushButton" name="vid_sporta_2">
          <property name="text">
           <string>Велосипед</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="vid_sporta_3">
-         <property name="text">
-          <string>Подъём тяжестей</string>
          </property>
         </widget>
        </item>
